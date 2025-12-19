@@ -1,0 +1,23 @@
+// PRODUCTOS
+const productos = [
+{ id: 1, nombre: "Producto 1", precio: 100, imagen: "images/producto 1.png", descripcion: "" },
+{ id: 2, nombre: "Producto 2", precio: 150, imagen: "images/producto 2.png", descripcion: "" },
+{ id: 3, nombre: "Producto 3", precio: 200, imagen: "images/producto 3.png", descripcion: "" },
+{ id: 4, nombre: "Producto 4", precio: 250, imagen: "images/producto 4.png" , descripcion: ""},
+{ id: 5, nombre: "Producto 5", precio: 300, imagen: "images/producto 5.png", descripcion: "" },
+{ id: 6, nombre: "Producto 6", precio: 350, imagen: "images/producto 6.png", descripcion: "" },
+{ id: 7, nombre: "Producto 7", precio: 400, imagen: "images/producto 7.png", descripcion: "" },
+{ id: 8, nombre: "Producto 8", precio: 450, imagen: "images/producto 8.png", descripcion: "" },
+{ id: 9, nombre: "Producto 9", precio: 500, imagen: "images/producto 9.png", descripcion: "" },
+{ id: 10, nombre: "Producto 10", precio: 550, imagen: "images/producto 10.png", descripcion: "" },
+{ id: 11, nombre: "Producto 11", precio: 600, imagen: "images/producto 11.png", descripcion: "" },
+{ id: 12, nombre: "Producto 12", precio: 650, imagen: "images/producto 12.png", descripcion: "" },
+{ id: 13, nombre: "Producto 13", precio: 700, imagen: "images/producto 13.png", descripcion: "" },
+{ id: 14, nombre: "Producto 14", precio: 750, imagen: "images/producto 14.png", descripcion: "" },
+{ id: 15, nombre: "Producto 15", precio: 800, imagen: "images/producto 15.png", descripcion: "" },
+{ id: 16, nombre: "Producto 16", precio: 850, imagen: "images/producto 16.png", descripcion: "" },
+{ id: 17, nombre: "Producto 17", precio: 900, imagen: "images/producto 17.png", descripcion: "" },
+{ id: 18, nombre: "Producto 18", precio: 950, imagen: "images/producto 18.png", descripcion: "" },
+{ id: 19, nombre: "Producto 19", precio: 1000, imagen: "images/producto 19.png", descripcion: "" },
+{ id: 20, nombre: "Producto 20", precio: 1050, imagen: "images/producto 20.png", descripcion: "" }
+];

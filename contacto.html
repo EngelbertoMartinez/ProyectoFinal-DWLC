@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Cool Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="top-header">
+    <div class="brand">Cool Center</div>
+
+    <div class="top-actions" id="usuarioHeader">
+        <a href="carrito.html" class="icon">🛒</a>
+        <a href="login.html">Login</a>
+        <span>|</span>
+        <a href="registro.html">Registro</a>
+    </div>
+</header>
+
+<nav class="main-nav">
+    <a href="index.html">Inicio</a>
+    <a href="inventario.html">Inventario</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+
+<div class="container">
+    <h2>Contáctanos</h2>
+
+    <p>
+        En <strong>Cool Center</strong> estamos comprometidos en brindarte la mejor
+        experiencia de compra. Si tienes dudas, comentarios o necesitas apoyo,
+        no dudes en comunicarte con nosotros.
+    </p>
+
+    <div class="contacto-grid">
+        <div class="contacto-info">
+            <h3>Información de contacto</h3>
+            <p>📍Dirección: Río Balsas 1141, Industrial Bravo, 80120 Culiacán Rosales, Sin.</p>
+            <p>📞 Teléfono: +52 667 283 3181</p>
+            <p>📧 Email: coolcenter@coolcenter.com</p>
+            <p>🕒 Horario: Lunes a Viernes 9:00 - 18:00</p>
+        </div>
+
+        <form onsubmit="enviarMensaje(event)">
+            <label>Nombre</label>
+            <input type="text" required>
+
+            <label>Email</label>
+            <input type="email" required>
+
+            <label>Mensaje</label>
+            <textarea rows="4" required></textarea>
+
+            <button>Enviar mensaje</button>
+        </form>
+    </div>
+</div>
+
+<footer class="footer">
+    2025 Cool Center
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
